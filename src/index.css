@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #AA336A;
+}
+
+body {
+  /* background: #ee9ca7; */
+  /* background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); */
+  /* background: linear-gradient(to right, #ee9ca7, #ffdde1); */
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pink-font {
+  color: var(--primary-color);
+}
+
+img {
+  /* width: 370px; */
+}
+
+button {
+  border: 1px solid #ccc;
+  padding: 10px 69px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: var(--primary-color);
+}
