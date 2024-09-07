@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import question_gif from './assets/question.gif'
 import answer_gif from './assets/answer.webp'
+import dev_race_logo from './assets/dev_race.jpg'
 
 function App() {
 
@@ -82,6 +83,14 @@ function App() {
           NO
         </button>
       </div>
+      <a 
+        href="https://www.linkedin.com/company/devrace"
+        target="_blank"
+        className={`flex items-center absolute bottom-0 logo gap-5 pr-5 ${yes_clicked ? '' : 'hidden'}`}
+      >
+        <img src={dev_race_logo} alt="https://dev-race.com/" />
+        <p className="text-sm">Powered by <br/> <a href="https://dev-race.com/">Dev-Race</a></p>
+      </a>
     </main>
   )
 }
