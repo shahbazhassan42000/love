@@ -7,9 +7,6 @@
 }
 
 body {
-  /* background: #ee9ca7; */
-  /* background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); */
-  /* background: linear-gradient(to right, #ee9ca7, #ffdde1); */
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
@@ -19,9 +16,6 @@ body {
   color: var(--primary-color);
 }
 
-img {
-  /* width: 370px; */
-}
 
 button {
   border: 1px solid #ccc;
@@ -29,6 +23,12 @@ button {
   border-radius: 50px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+}
+
+@media (max-width: 768px) {
+  button {
+    padding: 10px 50px;
+  }
 }
 
 button:hover {
@@ -44,4 +44,5 @@ button:hover {
 .secondary-btn {
   background-color: white;
   color: var(--primary-color);
+  z-index: 9999;
 }
