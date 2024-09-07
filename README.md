@@ -4,7 +4,7 @@ This is a simple React app created as a heartfelt expression for my better half.
 
 ## Demo
 
-You can view the live version of the app [https://love-nine-vert.vercel.app](#https://love-nine-vert.vercel.app).
+You can view the live version of the app [https://love-nine-vert.vercel.app](https://love-nine-vert.vercel.app).
 
 ## Features
 
